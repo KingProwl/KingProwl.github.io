@@ -8,7 +8,7 @@ body
 h1 
 {
 	color: #E9E9E9;
-	font-family: 'Cormorant Garamond';
+	font-family: 'Trebuchet MS';
 	border-bottom: 3px solid #4EB1BA;
 	font-size: 48px;
 	font-weight: 400;
@@ -24,7 +24,7 @@ h1
 h2
 {	
     	color: #E9E9E9;
-	font-family: 'Cormorant Garamond';
+	font-family: 'Trebuchet MS';
 	font-size: 28px;
 	font-style: italic;
 	font-weight: 400;
@@ -39,7 +39,7 @@ Label1
 {
 	color: #4EB1BA;	
 	border-bottom: 2px solid #4EB1BA;
-	font-family: 'Cormorant Garamond';
+	font-family: 'Trebuchet MS';
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
