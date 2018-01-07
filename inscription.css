@@ -1,15 +1,15 @@
 /*Couleur de fond*/
 body
 {
-	background-color:#1d191f
+	background-color:#35404b
 }
 		
 /*Titre principal*/
 h1 
 {
-	color: #fff;
-	font-family: 'Cormorant Garamond';
-	border-bottom: 3px solid #D35400;
+	color: #E9E9E9;
+	font-family: 'Trebuchet MS';
+	border-bottom: 3px solid #4EB1BA;
 	font-size: 48px;
 	font-weight: 400;
 	line-height: 72px;
@@ -23,8 +23,8 @@ h1
 /*Titre secondaire */
 h2
 {
-    color: #fff;
-	font-family: 'Cormorant Garamond';
+    color: #E9E9E9;
+	font-family: 'Trebuchet MS';
 	font-size: 28px;
 	font-style: italic;
 	font-weight: 400;
@@ -37,9 +37,9 @@ h2
 /*Bouton*/
 Label1
 {
-	color: #D35400;	
-	border-bottom: 2px solid #D35400;
-	font-family: 'Cormorant Garamond';
+	color: #4EB1BA;	
+	border-bottom: 2px solid #4EB1BA;
+	font-family: 'Trebuchet MS';
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -50,9 +50,9 @@ Label1
 /*Lien*/
 a
 {
-	color: #D35400;	
+	color: #4EB1BA;	
 }
 a:hover
 {
-	color: #fff;
+	color: #E9E9E9;
 }
