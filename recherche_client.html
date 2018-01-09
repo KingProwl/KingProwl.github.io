@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
-	
-<!-- Titre onglet -->	
+
+<!-- Titre onglet -->
+
 <head>
-	<title>Recherche Client</title>
-	<link rel="stylesheet" href="https://KingProwl.github.io/recherche_client.css"/>
+    <title>Recherche Client</title>
+    <link rel="stylesheet" type="text/css" href="recherche_client.css" />
 </head>
 
 <!-- Corps de la page -->
+
 <body>
-	<h1> Recherche Client </h1>
-	
-	<Label1><center>Prénom&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp<input type="identification" name="Prenom"/></center></Label1>
-	<br></br>
-	<Label1><center>Nom&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="identification" name="Nom"/></center></Label1>
-	<br></br>
-	<Label1><center>N° de référence&nbsp &nbsp &nbsp<input type="identification" name="Numero"/></center></Label1>
-	<br></br>
-	<Label1> <center> <a href = "https://KingProwl.github.io/recherche_client.html"> Rechercher </center> </a> </Label1>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<Label1> 	<center> <a href="https://KingProwl.github.io/recherche_client.html">Informations Gérant</a>
-			&nbsp
-			&nbsp
-			&nbsp
-			<a href="https://KingProwl.github.io/Projet/recherche_client.html">Informations Portefeuille</a>
-			&nbsp
-			&nbsp
-			&nbsp
-			<a href="https://KingProwl.github.io/Projet/recherche_client.html">Fonds détenus</a> 
-	</Label1>
+    <h1> Recherche Client </h1>
+
+    <form action="/recherche_client" method=post>
+
+        <div>
+            <label for="prenom"> Prenom: &nbsp</label>
+            <input type="text" id="prenom" />
+        </div>
+
+        <div>
+            <label for="nom"> Nom: &nbsp</label>
+            <input type="text" id="nom" />
+        </div>
+
+        <div>
+            <label for="ref"> Numéro de référence: &nbsp</label>
+            <input type="text" id="ref" />
+        </div>
+
+        <div class="button">
+            <button type="submit">Rechercher</button>
+        </div>
+
+    </form>
 
 </body>
