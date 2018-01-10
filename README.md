@@ -1,9 +1,9 @@
-# KingProwl.github.io
+# PI^2 
 Web platform project for Asset Sagacity
 
-Index : https://goo.gl/yhjTXq
+Index : #https://goo.gl/yhjTXq
 
-Currently working or getting the request of user on page : https://goo.gl/AVcmcR
+Currently working or getting the request of user on page : #https://goo.gl/AVcmcR
 
 Paul GHAFARI
 
