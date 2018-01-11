@@ -6,6 +6,15 @@
 <head>
     <title>Recherche Client</title>
     <link rel="stylesheet" type="text/css" href="https://KingProwl.github.io/recherche_client.css" />
+    
+    <SCRIPT LANGUAGE="javascript">
+        function submitFunction() {
+            alert(document.forms['form1']['prenom'].value);
+            return false;
+        }
+
+    </SCRIPT>
+    
 </head>
 
 <!-- Corps de la page -->
@@ -13,7 +22,7 @@
 <body>
     <h1> Recherche Client </h1>
 
-    <form action="https://KingProwl.github.io/recherche_client.html" method=post>
+    <form action="https://KingProwl.github.io/recherche_client.html" method=post onsubmit="submitFunction()">
 
         <div>
             <label for="prenom"> Prenom: &nbsp</label>
