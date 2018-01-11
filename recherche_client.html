@@ -9,7 +9,7 @@
     
     <SCRIPT LANGUAGE="javascript">
         function submitFunction() {
-            alert(document.forms['form1']['prenom'].value);
+            alert('La requête NoSql est: \n db.client.find({prenom="' + document.forms['form1']['prenom'].value + '", nom="' + document.forms['form1']['nom'].value + '"})');
             return false;
         }
 
