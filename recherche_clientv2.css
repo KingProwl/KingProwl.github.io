@@ -61,4 +61,10 @@ button {
     border-radius: 1000px;
 }
   
- 
+.btn {
+  background-color: #e0dfdc;
+}
+
+.btn:hover {
+  background-color:#333; 
+} 
